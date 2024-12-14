@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>مواقيت الصلاة المسيحية</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="+.png" type="image/png">
+    <link rel="stylesheet" href="static/styles.css" />
+    <link rel="icon" href="static/+.png" type="image/png">
   </head>
   <body>
     <header>
@@ -22,6 +22,7 @@
           <button>ابدأ الصلاة</button>
         </a>
       </section>
+      
 
       <section id="prayer-timetable">
         <h2>جدول الصلاة</h2>
@@ -38,7 +39,7 @@
               <td>صلاة باكر</td>
               <td>6:00 صباحًا</td>
               <td>
-                <button onclick="window.location.href='baaker.html'">
+                <button onclick="window.location.href='prayers/baaker.html'">
                   ابدأ
                 </button>
               </td>
@@ -48,10 +49,7 @@
               <td>9:00 صباحًا</td>
               <td>
                 <button
-                  onclick="window.open('https://st-takla.org/Agpeya/Agbeya_03_Terce_.html', '_blank')"
-                >
-                  ابدأ
-                </button>
+                  onclick="window.location.href='prayers/03.html'">ابدأ</button>
               </td>
             </tr>
             <tr>
@@ -59,7 +57,7 @@
               <td>12:00 ظهرًا</td>
               <td>
                 <button
-                  onclick="window.open('https://st-takla.org/Agpeya/Agbeya_06_Sext_.html', '_blank')"
+                  onclick="window.location.href='prayers/06.html'"
                 >
                   ابدأ
                 </button>
@@ -70,7 +68,7 @@
               <td>3:00 مساءً</td>
               <td>
                 <button
-                  onclick="window.open('https://st-takla.org/Agpeya/Agbeya_09_None_.html', '_blank')"
+                onclick="window.location.href='prayers/09.html'"
                 >
                   ابدأ
                 </button>
@@ -81,7 +79,8 @@
               <td>6:00 مساءً</td>
               <td>
                 <button
-                  onclick="window.open('https://st-takla.org/Agpeya/Agbeya_11_Vespers_.html', '_blank')"
+                  onclick="window.location.href='prayers/11.html'"
+                  
                 >
                   ابدأ
                 </button>
@@ -92,7 +91,7 @@
               <td>9:00 مساءً</td>
               <td>
                 <button
-                  onclick="window.open('https://st-takla.org/Agpeya/Agbeya_12_Compline_.html', '_blank')"
+                  onclick="window.location.href='prayers/12.html'"
                 >
                   ابدأ
                 </button>
@@ -129,6 +128,6 @@
       <p>© 2024 F.A.S_M.E_ATU موقع مواقيت الصلاة المسيحية</p>
     </footer>
     <button id="dark-mode-toggle">🌙</button>
-    <script src="script.js"></script>
+    <script src="static/script.js"></script>
   </body>
 </html>
